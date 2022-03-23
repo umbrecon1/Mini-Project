@@ -85,4 +85,21 @@ nav a:hover {
 .contact {
     color: white;
     text-align: center;
+    
 }
+
+input[type=text], select, textarea {
+    width: 100px;
+    padding: 7px;
+    border: 1px solid brown;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+}
+
+input[type=submit]:hover {
+    background-color: cyan;
+  }

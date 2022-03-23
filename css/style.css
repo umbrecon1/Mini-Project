@@ -1,5 +1,6 @@
 * {
     font-family:'Times New Roman', Times, serif;
+    color: white;
 }
 
 body {
@@ -82,7 +83,7 @@ nav a:hover {
     color: yellow;
 }
 
-.contact {
+#contact {
     color: white;
     text-align: center;
     
@@ -98,6 +99,10 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
     resize: vertical;
     
+}
+
+input[type=submit] {
+    color: black;
 }
 
 input[type=submit]:hover {
